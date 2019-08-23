@@ -1,0 +1,80 @@
+Exemptions
+76 Bound_By_Law,No_Criminal
+77 judge,judicially,No_Criminal
+78 judicially,Bound_By_Law,valid_Judgement,No_Criminal
+79 Bound_By_Law,No_Criminal
+80 Law_Accident,No_Criminal
+81 Prevention_Harm,No_Criminal
+82 Under7_Age
+83 Immature, 7-12Age
+84 Unsound_Mind
+85 Againstwill_Intoxication.
+86 Againstwill_Intoxication, Knowlegde_Beforhand
+87 Consent,No_Criminal,Victim
+88 Victim_Benifit,Consent,No_Criminal,Victim
+89 Consent,Guardian,Victim_Benifit,Child_Insane
+90 not(Exemptions),Consent,
+91 Exclusion_of_Acts
+92 Victim_Benifit,not(Consent),Death_Not_Likely
+93 Communiction,Good_Faith
+94 Compelled,Threats
+95 Slight_Harm
+96 Private_Defence
+97 Private_Defence,Body,Property
+98 Private_Defence,Unsound_Mind
+99 not(Private_Defence),Public_Servant,Good_Faith
+100 not(Exemption),Public_Servant,not(No_Criminal),not(Private_Defence),Death
+101 not(Exemption),Public_Servant,not(No_Criminal),not(Private_Defence),not(Death)
+102 Private_Defence
+103 Death,Private_Defence 
+104 Private_Defence,not(Death)
+105 Private_Defence,Property
+106 Private_Defence,Death,HarmToInnocent
+
+
+107 Abetment   Punishment=""
+108 Abettor	Punishment=""
+109 Abetment,not(Provision) Punishment=""
+110 Abetment,Different_Intention  Punishment=""
+111 Abetment,Different_Act Punishment=""
+112 Abetment,Criminal_Act Punishment=""
+113 Abetment,Different_Intention Punishment=""
+114 Abetment,PresentOnSpot
+115 Abetment,Life,Imprisonment,Death,No_Offence
+116 Abetment,Imprisonment,not(Death),No_Offence
+117 Abetment,Crowd
+118 HelpInCrime, WrongInformation,Life,Death,Imprisonment
+119 HelpInCrime, WrongInformation,PublicServant
+120 HelpInCrime, WrongInformation,Imprisonment
+
+OffencesAgainstState
+121 WagingWar,Attempt,War
+122 Arms,Attempt,War
+123 Concealing,War,Attempt
+124 Assault,President,Governor
+125 WagingWar,AsiaticPower,Peace,GOI
+126 Attack,Territories,Peace,GOI 
+127 RecieveProperty,War,Attack,Peace,GOI
+128 PublicServant,Volunteerly,Allow,Prisoner,Escape,War Punishment="May Extend To Seven year"
+129 PublicServant,Negligently,Allow,Prisoner,Escape,War
+130 Help,Escape,War
+
+Offences Related To the army
+131 abetting,soldier,sailor,airman
+132 abetting,mutany
+133 abetting,assault,executionInOffice,soldier,sailor,airman
+134 abetting,assault,commitedInOffice
+135 abetting,desertion,soldier,sailor,airman
+136 harbour,desertion
+137 desertion,negligence
+138 
+139
+140
+141
+142
+143
+144
+145
+146
+147
+
